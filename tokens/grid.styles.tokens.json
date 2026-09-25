@@ -1,0 +1,60 @@
+{
+  "Grids": {
+    "sm": {
+      "$type": "grid",
+      "$value": [
+        {
+          "pattern": "columns",
+          "visible": true,
+          "alignment": "stretch",
+          "color": "#ff00001a",
+          "gutterSize": "{grid.grid-gutter}",
+          "count": "{grid.grid-columns}",
+          "offset": "{grid.grid-margins}"
+        }
+      ]
+    },
+    "md": {
+      "$type": "grid",
+      "$value": [
+        {
+          "pattern": "columns",
+          "visible": true,
+          "alignment": "stretch",
+          "color": "#ff00001a",
+          "gutterSize": "{grid.grid-gutter}",
+          "count": "{grid.grid-columns}",
+          "offset": "{grid.grid-margins}"
+        }
+      ]
+    },
+    "lg": {
+      "$type": "grid",
+      "$value": [
+        {
+          "pattern": "columns",
+          "visible": true,
+          "alignment": "stretch",
+          "color": "#ff00001a",
+          "gutterSize": "{grid.grid-gutter}",
+          "count": "{grid.grid-gutter}",
+          "offset": "{grid.grid-margins}"
+        }
+      ]
+    },
+    "xl": {
+      "$type": "grid",
+      "$value": [
+        {
+          "pattern": "columns",
+          "visible": true,
+          "alignment": "stretch",
+          "color": "#ff00001a",
+          "gutterSize": "{grid.grid-gutter}",
+          "count": "{grid.grid-columns}",
+          "offset": "{grid.grid-margins}"
+        }
+      ]
+    }
+  }
+}

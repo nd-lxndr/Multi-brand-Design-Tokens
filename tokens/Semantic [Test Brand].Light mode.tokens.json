@@ -1,0 +1,841 @@
+{
+  "typography": {
+    "font-family": {
+      "font-family-primary": {
+        "$type": "string",
+        "$value": "{base-typography.font-family.archivo}",
+        "$description": "Font family"
+      },
+      "font-family-secondary": {
+        "$type": "string",
+        "$value": "{base-typography.font-family.archivo}",
+        "$description": "Font family"
+      }
+    },
+    "headings": {
+      "weight": {
+        "h1-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}"
+        },
+        "h1-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        },
+        "h1-xs-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}"
+        },
+        "h1-xs-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        },
+        "h2-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}"
+        },
+        "h2-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        },
+        "h2-xs-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}"
+        },
+        "h2-xs-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        },
+        "h3-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}"
+        },
+        "h3-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        },
+        "h3-xs-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}"
+        },
+        "h3-xs-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        },
+        "h4-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}"
+        },
+        "h4-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        },
+        "h4-xs-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}"
+        },
+        "h4-xs-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        },
+        "h5-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}"
+        },
+        "h5-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        },
+        "h5-xs-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}"
+        },
+        "h5-xs-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        },
+        "h6-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}"
+        },
+        "h6-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        }
+      },
+      "size": {
+        "h1": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-48}"
+        },
+        "h1-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-40}"
+        },
+        "h2": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-40}"
+        },
+        "h2-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-32}"
+        },
+        "h3": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-32}"
+        },
+        "h3-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-24}"
+        },
+        "h4": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-24}"
+        },
+        "h4-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-20}"
+        },
+        "h5": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-20}"
+        },
+        "h5-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-16}"
+        },
+        "h6": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-16}"
+        }
+      },
+      "line-height": {
+        "h1": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-52}"
+        },
+        "h1-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-48}"
+        },
+        "h2": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-44}"
+        },
+        "h2-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-40}"
+        },
+        "h3": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-36}"
+        },
+        "h3-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-28}"
+        },
+        "h4": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-28}"
+        },
+        "h4-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-24}"
+        },
+        "h5": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-24}"
+        },
+        "h5-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-20}"
+        },
+        "h6": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-24}"
+        }
+      },
+      "letter-spacing": {
+        "h1": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        },
+        "h1-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        },
+        "h2": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        },
+        "h2-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        },
+        "h3": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        },
+        "h3-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        },
+        "h4": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        },
+        "h4-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        },
+        "h5": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        },
+        "h5-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        },
+        "h6": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        }
+      }
+    },
+    "body": {
+      "weight": {
+        "body-lg-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}"
+        },
+        "body-lg-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        },
+        "body-md-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}"
+        },
+        "body-md-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        },
+        "body-sm-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}"
+        },
+        "body-sm-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        },
+        "body-xs-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}"
+        },
+        "body-xs-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        }
+      },
+      "size": {
+        "body-lg": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-16}"
+        },
+        "body-md": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-14}"
+        },
+        "body-sm": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-12}"
+        },
+        "body-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-10}"
+        }
+      },
+      "line-height": {
+        "body-lg": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-20}"
+        },
+        "body-md": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-16}"
+        },
+        "body-sm": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-16}"
+        },
+        "body-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-14}"
+        }
+      },
+      "letter-spacing": {
+        "body-lg": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        },
+        "body-md": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        },
+        "body-sm": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        },
+        "body-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        }
+      }
+    },
+    "buttons": {
+      "weight": {
+        "button-lg": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        },
+        "button-md": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        },
+        "button-sm": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        }
+      },
+      "size": {
+        "button-lg": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-16}",
+          "$description": "Font size"
+        },
+        "button-md": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-14}"
+        },
+        "button-sm": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-12}"
+        }
+      },
+      "line-height": {
+        "button-lg": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-24}"
+        },
+        "button-md": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-20}"
+        },
+        "button-sm": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-16}"
+        }
+      },
+      "letter-spacing": {
+        "button-lg": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        },
+        "button-md": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        },
+        "button-sm": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        }
+      }
+    },
+    "links": {
+      "weight": {
+        "link-lg-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}"
+        },
+        "link-lg-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        },
+        "link-md-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}"
+        },
+        "link-md-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        },
+        "link-sm-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}"
+        },
+        "link-sm-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}"
+        }
+      },
+      "size": {
+        "link-lg": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-16}"
+        },
+        "link-md": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-14}"
+        },
+        "link-sm": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-12}"
+        }
+      },
+      "line-height": {
+        "link-lg": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-24}"
+        },
+        "link-md": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-16}"
+        },
+        "link-sm": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-16}"
+        }
+      },
+      "letter-spacing": {
+        "link-lg": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        },
+        "link-md": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        },
+        "link-sm": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}"
+        }
+      }
+    }
+  },
+  "contextual-colors": {
+    "null": {
+      "$type": "color",
+      "$value": "#ffffff00"
+    },
+    "surface": {
+      "surface-neutral": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-20}",
+        "$description": "Surface colors are used as the main background color for the system."
+      },
+      "surface-subtle": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-10}",
+        "$description": "Surface colors are used as the main background color for the system."
+      },
+      "surface-muted": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-30}",
+        "$description": "Surface colors are used as the main background color for the system."
+      },
+      "surface-strong": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-110}",
+        "$description": "Surface colors are used as the main background color for the system."
+      },
+      "surface-inverse": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-00}",
+        "$description": "Surface colors are used as the main background color for the system."
+      }
+    },
+    "content": {
+      "content-primary": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-100}",
+        "$description": "Content colors are applied to texts, icons, etc."
+      },
+      "content-secondary": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-110}",
+        "$description": "Content colors are applied to texts, icons, etc."
+      },
+      "content-tertiary": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-60}",
+        "$description": "Content colors are applied to texts, icons, etc."
+      },
+      "content-disabled": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-40}",
+        "$description": "Content colors are applied to texts, icons, etc."
+      },
+      "content-inverse": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-00}",
+        "$description": "Content colors are applied to texts, icons, etc."
+      }
+    },
+    "border": {
+      "border-neutral": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-20}",
+        "$description": "Border colors are applied to the borders of components or containers, as well as to horizontal rules."
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-10}",
+        "$description": "Border colors are applied to the borders of components or containers, as well as to horizontal rules."
+      },
+      "border-muted": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-30}",
+        "$description": "Border colors are applied to the borders of components or containers, as well as to horizontal rules."
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-110}",
+        "$description": "Border colors are applied to the borders of components or containers, as well as to horizontal rules."
+      },
+      "border-inverse": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-00}",
+        "$description": "Border colors are applied to the borders of components or containers, as well as to horizontal rules."
+      }
+    },
+    "primary": {
+      "primary-default": {
+        "$type": "color",
+        "$value": "{core-colors.indigo.indigo-60}",
+        "$description": "The primary color is the most prominent color in the system. It’s used to bring attention to certain elements in the interface."
+      },
+      "primary-subtle": {
+        "$type": "color",
+        "$value": "{core-colors.indigo.indigo-30}",
+        "$description": "The primary color is the most prominent color in the system. It’s used to bring attention to certain elements in the interface."
+      },
+      "primary-muted": {
+        "$type": "color",
+        "$value": "{core-colors.indigo.indigo-50}",
+        "$description": "The primary color is the most prominent color in the system. It’s used to bring attention to certain elements in the interface."
+      },
+      "primary-strong": {
+        "$type": "color",
+        "$value": "{core-colors.indigo.indigo-90}",
+        "$description": "The primary color is the most prominent color in the system. It’s used to bring attention to certain elements in the interface."
+      }
+    },
+    "secondary": {
+      "secondary-default": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-80}",
+        "$description": "The secondary color is used in secondary elements."
+      },
+      "secondary-subtle": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-30}",
+        "$description": "The secondary color is used in secondary elements."
+      },
+      "secondary-muted": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-60}",
+        "$description": "The secondary color is used in secondary elements."
+      },
+      "secondary-strong": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-110}",
+        "$description": "The secondary color is used in secondary elements."
+      }
+    },
+    "accent": {
+      "accent-default": {
+        "$type": "color",
+        "$value": "{core-colors.bright-coral.bright-coral-60}",
+        "$description": "The primary color is the most prominent color in the system. It’s used to bring attention to certain elements in the interface."
+      },
+      "accent-subtle": {
+        "$type": "color",
+        "$value": "{core-colors.bright-coral.bright-coral-30}",
+        "$description": "The primary color is the most prominent color in the system. It’s used to bring attention to certain elements in the interface."
+      },
+      "accent-muted": {
+        "$type": "color",
+        "$value": "{core-colors.bright-coral.bright-coral-40}",
+        "$description": "The primary color is the most prominent color in the system. It’s used to bring attention to certain elements in the interface."
+      },
+      "accent-strong": {
+        "$type": "color",
+        "$value": "{core-colors.bright-coral.bright-coral-80}",
+        "$description": "The primary color is the most prominent color in the system. It’s used to bring attention to certain elements in the interface."
+      }
+    },
+    "informative": {
+      "info-default": {
+        "$type": "color",
+        "$value": "{core-colors.indigo.indigo-60}",
+        "$description": "The Informative color is used in informative messages/notifications."
+      },
+      "info-subtle": {
+        "$type": "color",
+        "$value": "{core-colors.indigo.indigo-10}",
+        "$description": "The Informative color is used in informative messages/notifications."
+      },
+      "info-muted": {
+        "$type": "color",
+        "$value": "{core-colors.indigo.indigo-30}",
+        "$description": "The Informative color is used in informative messages/notifications."
+      },
+      "info-strong": {
+        "$type": "color",
+        "$value": "{core-colors.indigo.indigo-90}",
+        "$description": "The Informative color is used in informative messages/notifications."
+      }
+    },
+    "success": {
+      "success-default": {
+        "$type": "color",
+        "$value": "{core-colors.green.green-60}",
+        "$description": "The success color is used in success messages/notifications."
+      },
+      "success-subtle": {
+        "$type": "color",
+        "$value": "{core-colors.green.green-10}",
+        "$description": "The success color is used in success messages/notifications."
+      },
+      "success-muted": {
+        "$type": "color",
+        "$value": "{core-colors.green.green-30}",
+        "$description": "The success color is used in success messages/notifications."
+      },
+      "success-strong": {
+        "$type": "color",
+        "$value": "{core-colors.green.green-90}",
+        "$description": "The success color is used in success messages/notifications."
+      }
+    },
+    "warning": {
+      "warning-default": {
+        "$type": "color",
+        "$value": "{core-colors.yellow.yellow-60}",
+        "$description": "The warning color is used in warning messages/notifications."
+      },
+      "warning-subtle": {
+        "$type": "color",
+        "$value": "{core-colors.yellow.yellow-10}",
+        "$description": "The warning color is used in warning messages/notifications."
+      },
+      "warning-muted": {
+        "$type": "color",
+        "$value": "{core-colors.yellow.yellow-30}",
+        "$description": "The warning color is used in warning messages/notifications."
+      },
+      "warning-strong": {
+        "$type": "color",
+        "$value": "{core-colors.yellow.yellow-90}",
+        "$description": "The warning color is used in warning messages/notifications."
+      }
+    },
+    "error": {
+      "error-default": {
+        "$type": "color",
+        "$value": "{core-colors.red.red-70}",
+        "$description": "The warning color is used in error messages/notifications and buttons that can cause permanent data loss."
+      },
+      "error-subtle": {
+        "$type": "color",
+        "$value": "{core-colors.red.red-10}",
+        "$description": "The warning color is used in error messages/notifications and buttons that can cause permanent data loss."
+      },
+      "error-muted": {
+        "$type": "color",
+        "$value": "{core-colors.red.red-30}",
+        "$description": "The warning color is used in error messages/notifications and buttons that can cause permanent data loss."
+      },
+      "error-strong": {
+        "$type": "color",
+        "$value": "{core-colors.red.red-90}",
+        "$description": "The warning color is used in error messages/notifications and buttons that can cause permanent data loss."
+      }
+    }
+  },
+  "shape": {
+    "shape-avatar": {
+      "$type": "dimension",
+      "$value": "{radius.500}"
+    },
+    "shape-accordion": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-badge": {
+      "$type": "dimension",
+      "$value": "{radius.500}"
+    },
+    "shape-button": {
+      "$type": "dimension",
+      "$value": "{radius.20}"
+    },
+    "shape-card": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-checkbox": {
+      "$type": "dimension",
+      "$value": "{radius.10}"
+    },
+    "shape-container": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-datepicker": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-drawer": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-definitionList": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-emptyState": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-footer": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-header": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-inputFields": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-messages": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-modal": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-navigationMenu": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-option": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-pagination": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-progressBar": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-segmentedControl": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-slider": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-skeleton": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-switch": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-radioButton": {
+      "$type": "dimension",
+      "$value": "{radius.500}"
+    },
+    "shape-tab": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-tag-squared": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-tag-rounded": {
+      "$type": "dimension",
+      "$value": "{radius.50}"
+    },
+    "shape-timepicker": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-toast": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-toggle": {
+      "$type": "dimension",
+      "$value": "{radius.100}"
+    },
+    "shape-tooltip": {
+      "$type": "dimension",
+      "$value": "{radius.30}"
+    },
+    "shape-spotlight": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    }
+  }
+}

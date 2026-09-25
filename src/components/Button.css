@@ -1,0 +1,47 @@
+.ds-button {
+  font-family: var(--typography-font-family-base);
+  font-size: var(--typography-font-size-md);
+  font-weight: var(--typography-font-weight-semibold);
+  line-height: var(--typography-line-height-base);
+
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-md);
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: background-color 0.15s ease, border-color 0.15s ease;
+}
+
+/* Primary: solid, high-emphasis action */
+.ds-button--primary {
+  background-color: var(--semantic-color-action-primary);
+  color: var(--semantic-color-surface);
+}
+
+.ds-button--primary:hover:not(:disabled) {
+  background-color: var(--semantic-color-action-primary-hover);
+}
+
+/* Secondary: outlined, lower-emphasis action */
+.ds-button--secondary {
+  background-color: transparent;
+  color: var(--semantic-color-text-primary);
+  border-color: var(--semantic-color-border);
+}
+
+.ds-button--secondary:hover:not(:disabled) {
+  background-color: var(--semantic-color-background);
+}
+
+/* Disabled state applies to both variants */
+.ds-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* Accessibility: visible keyboard focus ring, not just a mouse hover state.
+   This is the kind of thing that's easy to skip and very easy to point to
+   in an interview as a deliberate, not accidental, decision. */
+.ds-button:focus-visible {
+  outline: 2px solid var(--primitive-blue-500);
+  outline-offset: 2px;
+}

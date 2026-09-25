@@ -1,0 +1,66 @@
+{
+  "name": "Design Tokens",
+  "collections": {
+    "Semantic Brand 1": {
+      "modes": {
+        "Light mode": [
+          "Semantic Brand 1.Light mode.tokens.json"
+        ],
+        "Dark mode": [
+          "Semantic Brand 1.Dark mode.tokens.json"
+        ]
+      }
+    },
+    "Primitives": {
+      "modes": {
+        "Value": [
+          "Primitives.Value.tokens.json"
+        ]
+      }
+    },
+    "Components": {
+      "modes": {
+        "Brand 1": [
+          "Components.Brand 1.tokens.json"
+        ],
+        "Brand 2": [
+          "Components.Brand 2.tokens.json"
+        ],
+        "[Test Brand]": [
+          "Components.[Test Brand].tokens.json"
+        ]
+      }
+    },
+    "Semantic [Test Brand]": {
+      "modes": {
+        "Light mode": [
+          "Semantic [Test Brand].Light mode.tokens.json"
+        ],
+        "Dark mode": [
+          "Semantic [Test Brand].Dark mode.tokens.json"
+        ]
+      }
+    },
+    "Semantic Brand 2": {
+      "modes": {
+        "Default theme": [
+          "Semantic Brand 2.Default theme.tokens.json"
+        ]
+      }
+    }
+  },
+  "styles": {
+    "text": [
+      "text.styles.tokens.json"
+    ],
+    "effect": [
+      "effect.styles.tokens.json"
+    ],
+    "color": [
+      "color.styles.tokens.json"
+    ],
+    "grid": [
+      "grid.styles.tokens.json"
+    ]
+  }
+}

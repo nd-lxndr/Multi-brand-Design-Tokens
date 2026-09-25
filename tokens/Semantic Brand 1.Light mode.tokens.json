@@ -1,0 +1,939 @@
+{
+  "typography": {
+    "font-family": {
+      "font-family-primary": {
+        "$type": "string",
+        "$value": "{base-typography.font-family.inter}",
+        "$description": "Font family"
+      },
+      "font-family-secondary": {
+        "$type": "string",
+        "$value": "{base-typography.font-family.jetbrains-mono}",
+        "$description": "Font family"
+      }
+    },
+    "headings": {
+      "weight": {
+        "h1-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}",
+          "$description": "Font weight"
+        },
+        "h1-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        },
+        "h1-xs-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}",
+          "$description": "Font weight"
+        },
+        "h1-xs-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        },
+        "h2-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}",
+          "$description": "Font weight"
+        },
+        "h2-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        },
+        "h2-xs-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}",
+          "$description": "Font weight"
+        },
+        "h2-xs-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        },
+        "h3-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}",
+          "$description": "Font weight"
+        },
+        "h3-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        },
+        "h3-xs-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}",
+          "$description": "Font weight"
+        },
+        "h3-xs-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        },
+        "h4-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}",
+          "$description": "Font weight"
+        },
+        "h4-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        },
+        "h4-xs-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}",
+          "$description": "Font weight"
+        },
+        "h4-xs-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        },
+        "h5-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}",
+          "$description": "Font weight"
+        },
+        "h5-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        },
+        "h5-xs-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}",
+          "$description": "Font weight"
+        },
+        "h5-xs-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        },
+        "h6-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}",
+          "$description": "Font weight"
+        },
+        "h6-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        }
+      },
+      "size": {
+        "h1": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-48}",
+          "$description": "Font size"
+        },
+        "h1-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-40}",
+          "$description": "Font size"
+        },
+        "h2": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-40}",
+          "$description": "Font size"
+        },
+        "h2-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-32}",
+          "$description": "Font size"
+        },
+        "h3": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-32}",
+          "$description": "Font size"
+        },
+        "h3-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-24}",
+          "$description": "Font size"
+        },
+        "h4": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-24}",
+          "$description": "Font size"
+        },
+        "h4-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-20}",
+          "$description": "Font size"
+        },
+        "h5": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-20}",
+          "$description": "Font size"
+        },
+        "h5-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-16}",
+          "$description": "Font size"
+        },
+        "h6": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-16}",
+          "$description": "Font size"
+        }
+      },
+      "line-height": {
+        "h1": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-52}",
+          "$description": "Line-height"
+        },
+        "h1-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-48}",
+          "$description": "Line-height"
+        },
+        "h2": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-44}",
+          "$description": "Line-height"
+        },
+        "h2-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-40}",
+          "$description": "Line-height"
+        },
+        "h3": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-36}",
+          "$description": "Line-height"
+        },
+        "h3-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-28}",
+          "$description": "Line-height"
+        },
+        "h4": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-28}",
+          "$description": "Line-height"
+        },
+        "h4-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-24}",
+          "$description": "Line-height"
+        },
+        "h5": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-24}",
+          "$description": "Line-height"
+        },
+        "h5-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-20}",
+          "$description": "Line-height"
+        },
+        "h6": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-24}",
+          "$description": "Line-height"
+        }
+      },
+      "letter-spacing": {
+        "h1": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        },
+        "h1-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        },
+        "h2": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        },
+        "h2-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        },
+        "h3": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        },
+        "h3-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        },
+        "h4": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        },
+        "h4-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        },
+        "h5": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        },
+        "h5-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        },
+        "h6": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        }
+      }
+    },
+    "body": {
+      "weight": {
+        "body-lg-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}",
+          "$description": "Font weight"
+        },
+        "body-lg-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        },
+        "body-md-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}",
+          "$description": "Font weight"
+        },
+        "body-md-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        },
+        "body-sm-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}",
+          "$description": "Font weight"
+        },
+        "body-sm-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        },
+        "body-xs-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}",
+          "$description": "Font weight"
+        },
+        "body-xs-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        }
+      },
+      "size": {
+        "body-lg": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-16}",
+          "$description": "Font size"
+        },
+        "body-md": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-14}",
+          "$description": "Font size"
+        },
+        "body-sm": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-12}",
+          "$description": "Font size"
+        },
+        "body-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-10}",
+          "$description": "Font size"
+        }
+      },
+      "line-height": {
+        "body-lg": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-20}",
+          "$description": "Line-height"
+        },
+        "body-md": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-16}",
+          "$description": "Line-height"
+        },
+        "body-sm": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-16}",
+          "$description": "Line-height"
+        },
+        "body-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-14}",
+          "$description": "Line-height"
+        }
+      },
+      "letter-spacing": {
+        "body-lg": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        },
+        "body-md": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        },
+        "body-sm": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        },
+        "body-xs": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        }
+      }
+    },
+    "buttons": {
+      "weight": {
+        "button-lg": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        },
+        "button-md": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        },
+        "button-sm": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        }
+      },
+      "size": {
+        "button-lg": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-16}",
+          "$description": "Font size"
+        },
+        "button-md": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-14}",
+          "$description": "Font size"
+        },
+        "button-sm": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-12}",
+          "$description": "Font size"
+        }
+      },
+      "line-height": {
+        "button-lg": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-24}"
+        },
+        "button-md": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-20}"
+        },
+        "button-sm": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-16}"
+        }
+      },
+      "letter-spacing": {
+        "button-lg": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        },
+        "button-md": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        },
+        "button-sm": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        }
+      }
+    },
+    "links": {
+      "weight": {
+        "link-lg-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}",
+          "$description": "Font weight"
+        },
+        "link-lg-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        },
+        "link-md-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}",
+          "$description": "Font weight"
+        },
+        "link-md-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        },
+        "link-sm-regular": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.400}",
+          "$description": "Font weight"
+        },
+        "link-sm-bold": {
+          "$type": "string",
+          "$value": "{base-typography.font-weight.600}",
+          "$description": "Font weight"
+        }
+      },
+      "size": {
+        "link-lg": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-16}",
+          "$description": "Font size"
+        },
+        "link-md": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-14}",
+          "$description": "Font size"
+        },
+        "link-sm": {
+          "$type": "dimension",
+          "$value": "{base-typography.font-size.size-12}",
+          "$description": "Font size"
+        }
+      },
+      "line-height": {
+        "link-lg": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-24}"
+        },
+        "link-md": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-16}"
+        },
+        "link-sm": {
+          "$type": "dimension",
+          "$value": "{base-typography.line-height.height-16}"
+        }
+      },
+      "letter-spacing": {
+        "link-lg": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        },
+        "link-md": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        },
+        "link-sm-letter-spacing": {
+          "$type": "dimension",
+          "$value": "{base-typography.letter-spacing.spacing-0}",
+          "$description": "Letter spacing"
+        }
+      }
+    }
+  },
+  "contextual-colors": {
+    "null": {
+      "$type": "color",
+      "$value": "#ffffff00"
+    },
+    "surface": {
+      "surface-neutral": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-20}",
+        "$description": "Surface colors are used as the main background color for the system."
+      },
+      "surface-subtle": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-10}",
+        "$description": "Surface colors are used as the main background color for the system."
+      },
+      "surface-muted": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-30}",
+        "$description": "Surface colors are used as the main background color for the system."
+      },
+      "surface-strong": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-110}",
+        "$description": "Surface colors are used as the main background color for the system."
+      },
+      "surface-inverse": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-00}",
+        "$description": "Surface colors are used as the main background color for the system."
+      }
+    },
+    "content": {
+      "content-primary": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-100}",
+        "$description": "Content colors are applied to texts, icons, etc."
+      },
+      "content-secondary": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-110}",
+        "$description": "Content colors are applied to texts, icons, etc."
+      },
+      "content-tertiary": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-60}",
+        "$description": "Content colors are applied to texts, icons, etc."
+      },
+      "content-disabled": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-40}",
+        "$description": "Content colors are applied to texts, icons, etc."
+      },
+      "content-inverse": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-00}",
+        "$description": "Content colors are applied to texts, icons, etc."
+      }
+    },
+    "border": {
+      "border-neutral": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-20}",
+        "$description": "Border colors are applied to the borders of components or containers, as well as to horizontal rules."
+      },
+      "border-subtle": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-10}",
+        "$description": "Border colors are applied to the borders of components or containers, as well as to horizontal rules."
+      },
+      "border-muted": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-30}",
+        "$description": "Border colors are applied to the borders of components or containers, as well as to horizontal rules."
+      },
+      "border-strong": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-110}",
+        "$description": "Border colors are applied to the borders of components or containers, as well as to horizontal rules."
+      },
+      "border-inverse": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-00}",
+        "$description": "Border colors are applied to the borders of components or containers, as well as to horizontal rules."
+      }
+    },
+    "primary": {
+      "primary-default": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-120}",
+        "$description": "The primary color is the most prominent color in the system. It’s used to bring attention to certain elements in the interface."
+      },
+      "primary-subtle": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-30}",
+        "$description": "The primary color is the most prominent color in the system. It’s used to bring attention to certain elements in the interface."
+      },
+      "primary-muted": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-60}",
+        "$description": "The primary color is the most prominent color in the system. It’s used to bring attention to certain elements in the interface."
+      },
+      "primary-strong": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-80}",
+        "$description": "The primary color is the most prominent color in the system. It’s used to bring attention to certain elements in the interface."
+      }
+    },
+    "secondary": {
+      "secondary-default": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-80}",
+        "$description": "The secondary color is used in secondary elements."
+      },
+      "secondary-subtle": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-30}",
+        "$description": "The secondary color is used in secondary elements."
+      },
+      "secondary-muted": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-60}",
+        "$description": "The secondary color is used in secondary elements."
+      },
+      "secondary-strong": {
+        "$type": "color",
+        "$value": "{core-colors.grey.grey-110}",
+        "$description": "The secondary color is used in secondary elements."
+      }
+    },
+    "accent": {
+      "accent-default": {
+        "$type": "color",
+        "$value": "{core-colors.indigo.indigo-60}",
+        "$description": "The accent color is used as an alternative to the primary color."
+      },
+      "accent-subtle": {
+        "$type": "color",
+        "$value": "{core-colors.indigo.indigo-10}",
+        "$description": "The accent color is used as an alternative to the primary color."
+      },
+      "accent-muted": {
+        "$type": "color",
+        "$value": "{core-colors.indigo.indigo-30}",
+        "$description": "The accent color is used as an alternative to the primary color."
+      },
+      "accent-strong": {
+        "$type": "color",
+        "$value": "{core-colors.indigo.indigo-90}",
+        "$description": "The accent color is used as an alternative to the primary color."
+      }
+    },
+    "informative": {
+      "info-default": {
+        "$type": "color",
+        "$value": "{core-colors.indigo.indigo-60}",
+        "$description": "The Informative color is used in informative messages/notifications."
+      },
+      "info-subtle": {
+        "$type": "color",
+        "$value": "{core-colors.indigo.indigo-10}",
+        "$description": "The Informative color is used in informative messages/notifications."
+      },
+      "info-muted": {
+        "$type": "color",
+        "$value": "{core-colors.indigo.indigo-30}",
+        "$description": "The Informative color is used in informative messages/notifications."
+      },
+      "info-strong": {
+        "$type": "color",
+        "$value": "{core-colors.indigo.indigo-90}",
+        "$description": "The Informative color is used in informative messages/notifications."
+      }
+    },
+    "success": {
+      "success-default": {
+        "$type": "color",
+        "$value": "{core-colors.green.green-60}",
+        "$description": "The success color is used in success messages/notifications."
+      },
+      "success-subtle": {
+        "$type": "color",
+        "$value": "{core-colors.green.green-10}",
+        "$description": "The success color is used in success messages/notifications."
+      },
+      "success-muted": {
+        "$type": "color",
+        "$value": "{core-colors.green.green-30}",
+        "$description": "The success color is used in success messages/notifications."
+      },
+      "success-strong": {
+        "$type": "color",
+        "$value": "{core-colors.green.green-90}",
+        "$description": "The success color is used in success messages/notifications."
+      }
+    },
+    "warning": {
+      "warning-default": {
+        "$type": "color",
+        "$value": "{core-colors.yellow.yellow-60}",
+        "$description": "The warning color is used in warning messages/notifications."
+      },
+      "warning-subtle": {
+        "$type": "color",
+        "$value": "{core-colors.yellow.yellow-10}",
+        "$description": "The warning color is used in warning messages/notifications."
+      },
+      "warning-muted": {
+        "$type": "color",
+        "$value": "{core-colors.yellow.yellow-30}",
+        "$description": "The warning color is used in warning messages/notifications."
+      },
+      "warning-strong": {
+        "$type": "color",
+        "$value": "{core-colors.yellow.yellow-90}",
+        "$description": "The warning color is used in warning messages/notifications."
+      }
+    },
+    "error": {
+      "error-default": {
+        "$type": "color",
+        "$value": "{core-colors.red.red-70}",
+        "$description": "The warning color is used in error messages/notifications and buttons that can cause permanent data loss."
+      },
+      "error-subtle": {
+        "$type": "color",
+        "$value": "{core-colors.red.red-10}",
+        "$description": "The warning color is used in error messages/notifications and buttons that can cause permanent data loss."
+      },
+      "error-muted": {
+        "$type": "color",
+        "$value": "{core-colors.red.red-30}",
+        "$description": "The warning color is used in error messages/notifications and buttons that can cause permanent data loss."
+      },
+      "error-strong": {
+        "$type": "color",
+        "$value": "{core-colors.red.red-90}",
+        "$description": "The warning color is used in error messages/notifications and buttons that can cause permanent data loss."
+      }
+    }
+  },
+  "shape": {
+    "shape-avatar": {
+      "$type": "dimension",
+      "$value": "{radius.500}"
+    },
+    "shape-accordion": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-badge": {
+      "$type": "dimension",
+      "$value": "{radius.500}"
+    },
+    "shape-button": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-card": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-checkbox": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-container": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-datepicker": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-drawer": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-definitionList": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-emptyState": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-footer": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-header": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-timepicker": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-inputFields": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-pagination": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-toggle": {
+      "$type": "dimension",
+      "$value": "{radius.100}"
+    },
+    "shape-toast": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-segmentedControl": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-switch": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-progressBar": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-tag-rounded": {
+      "$type": "dimension",
+      "$value": "{radius.50}"
+    },
+    "shape-tab": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-radioButton": {
+      "$type": "dimension",
+      "$value": "{radius.500}"
+    },
+    "shape-messages": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-modal": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-tag-squared": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-tooltip": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-navigationMenu": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-navigationSidebar": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-option": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-slider": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-skeleton": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    },
+    "shape-spotlight": {
+      "$type": "dimension",
+      "$value": "{radius.0}"
+    }
+  }
+}
