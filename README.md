@@ -1,5 +1,5 @@
 # Multi-brand-Design-Tokens
-A manifest-driven token build pipeline that turns a multi-brand, multi-mode Figma token export into CSS custom properties — with example components consuming the output.
+A manifest-driven token build pipeline that turns a multi-brand, multi-mode Figma token export into CSS custom properties.
 
 Rebuilt similar as the architecture of the design system I led as Design System Manager. Brand names, colors, and identifying details have been anonymized; the structure and logic are accurate. See the [case study repo]([../enterprise-design-system-case-study](https://github.com/nd-lxndr/Enterprise-Design-System-Leadership-Case-Study) for the fuller story of leading that system.
 
